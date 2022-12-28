@@ -1,0 +1,48 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.wrapper{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:20px;
+    width: 250px;
+}
+
+.input{
+    display: block;
+    border-radius: 5px;
+    height: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.selector{
+    display: block;
+    margin-top: 10px;
+}
+
+.textarea{
+    display: block;
+    resize: none;
+    margin-top: 10px;
+    min-height: 80px;
+}
+
+.btn{
+    display: block;
+    padding: 5px 10px;
+    margin: 10px auto 0 auto;
+}
+
+.error{
+    color:red;
+    font-size: 10px;
+
+}
