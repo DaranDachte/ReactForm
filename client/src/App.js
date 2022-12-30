@@ -1,9 +1,9 @@
-import Form from "./components/Form/Form";
+import Main from "./components/Main";
 
-function App() {
+const App = () => {
   return (
     <div>
-      <Form />
+      <Main />
     </div>
   );
 }
