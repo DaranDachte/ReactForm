@@ -28,7 +28,6 @@ body {
     padding: 8px;
     border-radius: 5px;
     box-shadow: 3px 2px 5px 2px rgba(0, 0, 0, 0.7);
-    margin-bottom: 15px;
 }
 
 .selector {
@@ -36,7 +35,6 @@ body {
     padding: 8px;
     border-radius: 5px;
     box-shadow: 3px 2px 5px 2px rgba(0, 0, 0, 0.7);
-    margin-bottom: 15px;
 }
 
 .textarea {
@@ -46,7 +44,6 @@ body {
     min-height: 80px;
     border-radius: 5px;
     box-shadow: 3px 2px 5px 2px rgba(0, 0, 0, 0.7);
-    margin-bottom: 15px;
 }
 
 .btn {
@@ -65,5 +62,6 @@ body {
 
 }
  h4{
-    margin-bottom: 5px;
+     margin-bottom: 5px;
+     margin-top: 15px;
  }
