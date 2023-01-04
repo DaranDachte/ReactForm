@@ -1,13 +1,23 @@
 import styles from "./Question.module.css";
 
-const Question = ({ topic, text, name, isActive, setActiveIndex, index }) => {
+const Question = ({
+  topic,
+  text,
+  name,
+  isActive,
+  setActiveIndex,
+  answer,
+  index,
+}) => {
   return (
-    <div onClick={() => setActiveIndex(index)}>
-      <h2 className="">{topic}</h2>
+    <div onClick={() => setActiveIndex(index)} className={styles.wrapper}
+    onDoubleClick={() => setActiveIndex(false)}>
+      <h2>{topic}</h2>
       {isActive && (
-        <div>
+        <div className={styles.question}>
           <h4>From {name}</h4>
-          <p>{text}</p>
+          <h5>{text}</h5>
+          <p>{answer}</p>
         </div>
       )}
     </div>

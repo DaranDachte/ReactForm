@@ -1,0 +1,29 @@
+body{
+    background-color:  #82E0AA ;
+ }
+    .container{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center; 
+        flex-direction: column;
+
+    }
+    
+    .container > div{
+        margin: 50px;
+    }
+
+    .attention{
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        margin-left: 1020px;
+        margin-top: 430px;
+        border-radius: 5px;
+        background-color: #139639;
+        padding: 10px;
+    box-shadow:  4px 10px 14px 0px rgba(0,0,0,0.7);
+    font-size: 12px;
+
+        
+    }
