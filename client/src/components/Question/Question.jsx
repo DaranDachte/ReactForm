@@ -12,12 +12,11 @@ const Question = ({
   return (
     <div onClick={() => setActiveIndex(index)} className={styles.wrapper}
     onDoubleClick={() => setActiveIndex(false)}>
-      <h2>{topic}</h2>
+      <h3>{text}</h3>
       {isActive && (
-        <div className={styles.question}>
+        <div>
           <h4>From {name}</h4>
-          <h5>{text}</h5>
-          <p>{answer}</p>
+          <p className={styles.question}>{answer}</p>
         </div>
       )}
     </div>
